@@ -48,7 +48,7 @@ app.UseExceptionHandler(c => c.Run(async context =>
 }));
 
 app.UseCors(policy =>
-    policy.WithOrigins("http://localhost:7104", "https://localhost:7104")
+    policy.WithOrigins("http://localhost:7177", "https://localhost:7177")
         .AllowAnyMethod()
         .WithHeaders(HeaderNames.ContentType)
 );
