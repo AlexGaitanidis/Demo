@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Demo.Domain.Entities;
+﻿using Demo.Domain.Entities;
 using Demo.Domain.Repositories;
 using Demo.Domain.SeedWork;
 using Demo.Infrastructure.DataAccess;
